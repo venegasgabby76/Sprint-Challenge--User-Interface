@@ -80,15 +80,15 @@ p {
 }
 
 .large-logo{
-    height:80px;
-    width: 153px;
+    width: auto;
+    height: 5%; 
 }
 
 
 .lambda-logo{
-    position: absolute;
     margin-top: 5px;
     padding-left: 150px;
+    float: left;
 
 }
 
@@ -103,6 +103,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 90px;
     border-bottom: 1px dashed black;
 }
 
@@ -277,6 +278,19 @@ footer nav a {
 /* This is the beginning section for the about page*/
 
 
+#about-page {
+   margin: 0 auto;
+}
+
+
+.container-about-page {
+    margin-left: 50px;
+    padding 15px 15px;
+    display: block;
+
+}
+
+
 #top-nav{
     display: flex;
     justify-content: space-around;
@@ -361,4 +375,21 @@ footer nav a {
     display: flex;
     padding: 10px 10px;
     margin: 10px 10px;
+}
+
+
+.last-section{
+    padding-bottom: 25px;
+    margin-left: 50px;
+}
+
+
+.btn1, .btn2, .btn3, .btn4 {
+    margin-top: 10px;
+		border: none
+  		padding: 15px 32px;
+          text-align: center;
+          font-size: 15px;
+  		display: inline-block;
+		border-radius: 8px;
 }
