@@ -67,15 +67,25 @@ p {
 }
 
 
-#about-header{
+#top-nav{
     display: flex;
     justify-content: space-around;
-    word-spacing: 50px;
+    word-spacing: 30px;
     text-align: end;
-    color: lightgray;
+    color: black;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 200px;
 }
+
+.top-bar{
+    color: black;
+}
+
+.large-logo{
+    height:80px;
+    width: 153px;
+}
+
 
 .lambda-logo{
     position: fixed;
