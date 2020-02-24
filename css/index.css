@@ -67,22 +67,15 @@ p {
 }
 
 
-#top-nav{
-    display: flex;
-    justify-content: space-around;
+.navigation-bar {
     word-spacing: 30px;
-    text-align: end;
+    text-align: center;
     color: black;
 }
 
 .top-bar{
     color: black;
-}
-
-.large-logo{
-    width: auto;
-    height: 5%; 
-}
+} 
 
 
 .lambda-logo{
@@ -92,10 +85,24 @@ p {
 
 }
 
+.lrg-logo{
+        display: block;
+        width: 65%;
+        margin-left: 250px;
+        margin-right: 250px;
+        padding-top: 25px;
+
+}
+
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+
+.container-about-page{
+    padding: 25px;
 }
 
 .top-content {
@@ -109,7 +116,6 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 20px;  
 }
 
@@ -278,118 +284,115 @@ footer nav a {
 /* This is the beginning section for the about page*/
 
 
-#about-page {
-   margin: 0 auto;
-}
-
-
-.container-about-page {
-    margin-left: 50px;
-    padding 15px 15px;
-    display: block;
-
-}
-
-
-#top-nav{
-    display: flex;
-    justify-content: space-around;
-    word-spacing: 30px;
-    text-align: end;
-    color: black;
-    padding: 25px;
-}
-
-.top-bar{
-    color: black;
-}
-
-.large-logo{
-    height:80px;
-    width: 153px;
-}
-
-
-.lambda-logo{
-    position: absolute;
-    margin-top: 5px;
-    padding-left: 150px;
-
-}
-
-
-.big-section {
-    padding: 30px;
-    margin: 50px 50px;
-    column-gap: 15px;
-    display: inline-block;
-    justify-content: stretch;
-    text-align: justify;
-}
-
-.first-section{
-    display: flex;
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-
-
-.strategy-section {
-    border-bottom: 1px dashed black;
-    width: 400px;
-    height: 400px;
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-
-.work-section {
-    border-bottom: 1px dashed black;
-    width: 400px;
-    height: 400px;
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-
-
-
-
-
-
-.places-section {
-    border-bottom: 1px dashed black;
-    width: 400px;
-    height: 400px;
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-
-.colab-section{
-    border-bottom: 1px dashed black;
-    width: 400px;
-    height: 400px;
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-
-.second-section{
-    display: flex;
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-
-
-.last-section{
-    padding-bottom: 25px;
-    margin-left: 50px;
-}
-
-
-.btn1, .btn2, .btn3, .btn4 {
-    margin-top: 10px;
-		border: none
-  		padding: 15px 32px;
-          text-align: center;
-          font-size: 15px;
-  		display: inline-block;
-		border-radius: 8px;
-}
+ 
+ 
+ .container-about-page {
+    width: 800px; 
+    margin: auto;
+ 
+ }
+ 
+ 
+ #top-nav{
+     display: flex;
+     justify-content: space-around;
+     word-spacing: 30px;
+     text-align: end;
+     color: black;
+     padding: 25px;
+ }
+ 
+ .top-bar{
+     color: black;
+ }
+ 
+ .large-logo{
+     height:80px;
+     width: 153px;
+ }
+ 
+ 
+ .lambda-logo{
+     position: absolute;
+     margin-top: 5px;
+     padding-left: 150px;
+ 
+ }
+ 
+ 
+ .big-section {
+     padding: 30px;
+     margin: 50px 50px;
+     column-gap: 15px;
+     display: inline-block;
+     justify-content: stretch;
+     text-align: justify;
+ }
+ 
+ .first-section{
+     display: flex;
+     padding: 10px 10px;
+     margin: 10px 10px;
+ }
+ 
+ 
+ .strategy-section {
+     border-bottom: 1px dashed black;
+     width: 400px;
+     height: 400px;
+     padding: 10px 10px;
+     margin: 10px 10px;
+ }
+ 
+ .work-section {
+     border-bottom: 1px dashed black;
+     width: 400px;
+     height: 400px;
+     padding: 10px 10px;
+     margin: 10px 10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .places-section {
+     border-bottom: 1px dashed black;
+     width: 400px;
+     height: 400px;
+     padding: 10px 10px;
+     margin: 10px 10px;
+ }
+ 
+ .colab-section{
+     border-bottom: 1px dashed black;
+     width: 400px;
+     height: 400px;
+     padding: 10px 10px;
+     margin: 10px 10px;
+ }
+ 
+ .second-section{
+     display: flex;
+     padding: 10px 10px;
+     margin: 10px 10px;
+ }
+ 
+ 
+ .last-section{
+     padding-bottom: 25px;
+     margin-left: 50px;
+ }
+ 
+ 
+ .btn1, .btn2, .btn3, .btn4 {
+     margin-top: 10px;
+         border: none
+           padding: 15px 32px;
+           text-align: center;
+           font-size: 15px;
+           display: inline-block;
+         border-radius: 8px;
+ }
+ 
